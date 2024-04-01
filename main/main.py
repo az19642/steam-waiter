@@ -8,8 +8,7 @@ This file is Copyright (c) 2023 Chris Oh, Ahmed Hassini, Andy Zhang, Daniel Lee
 """
 
 from input_data import run_tkinter
-from scrape_app_ids import scrape_app_ids
-from decision_tree import *
+from main.decision_tree import *
 
 
 if __name__ == '__main__':

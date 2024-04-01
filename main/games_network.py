@@ -15,8 +15,8 @@ from queue import Queue
 from typing import Optional
 from bs4 import BeautifulSoup
 import requests
-from scrape_profile_ids import scrape_profile_ids
-from scrape_app_ids import scrape_app_ids, get_json_response
+from data_scraping.scrape_profile_ids import scrape_profile_ids
+from data_scraping.scrape_app_ids import scrape_app_ids, get_json_response
 
 
 class Game:
